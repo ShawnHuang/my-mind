@@ -98,7 +98,33 @@ MM.Command.Strikethrough = Object.create(MM.Command.Style, {
 	label: {value: "Strike-through"},
 	keys: {value: [{keyCode: "S".charCodeAt(0), ctrlKey:true}]}
 });
+MM.Command.SetURL = Object.create(MM.Command, {
+	label: {value: "Set URL"},
+	keys: {value: [{charCode: "v".charCodeAt(0), ctrlKey:false, metaKey:false}]}
+});
+MM.Command.SetURL.execute = function() {
+	var item = MM.App.current;
+	var oldValue = item.getURL();
+    console.log(oldValue);
+	var newValue = prompt("Set item URL", oldValue);
+	if (newValue == null) { return; }
 
+	if (!newValue.length) { newValue = null; }
+
+	//var numValue = parseFloat(newValue);
+	var action = new MM.Action.SetURL(item, newValue);
+	MM.App.action(action);
+    //window.location.href = newValue;
+}
+MM.Command.GoURL = Object.create(MM.Command, {
+	label: {value: "Go to URL"},
+	keys: {value: [{charCode: "v".charCodeAt(0), ctrlKey:false, metaKey:false}]}
+});
+MM.Command.GoURL.execute = function() {
+	var item = MM.App.current;
+	var Value = item.getURL();
+    window.location.href = Value;
+}
 MM.Command.Value = Object.create(MM.Command, {
 	label: {value: "Set value"},
 	keys: {value: [{charCode: "v".charCodeAt(0), ctrlKey:false, metaKey:false}]}

@@ -161,6 +161,19 @@ MM.Action.SetText.prototype.undo = function() {
 	this._item.setValue(this._oldValue);
 }
 
+MM.Action.SetURL = function(item, url) {
+	this._item = item;
+	this._url = url;
+	this._oldURL = item.getURL();
+}
+MM.Action.SetURL.prototype = Object.create(MM.Action.prototype);
+MM.Action.SetURL.prototype.perform = function() {
+	this._item.setURL(this._url);
+}
+MM.Action.SetURL.prototype.undo = function() {
+	this._item.setURL(this._oldURL);
+}
+
 MM.Action.SetValue = function(item, value) {
 	this._item = item;
 	this._value = value;

@@ -8,6 +8,7 @@ MM.UI = function() {
 	this._icon = new MM.UI.Icon();
 	this._color = new MM.UI.Color();
 	this._value = new MM.UI.Value();
+	this._url = new MM.UI.URL();
 	this._status = new MM.UI.Status();
 		
 	MM.subscribe("item-select", this);

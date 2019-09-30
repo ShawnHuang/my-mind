@@ -8,6 +8,7 @@ MM.Item = function() {
 	this._autoShape = true;
 	this._color = null;
 	this._value = null;
+	this._url = null;
 	this._status = null;
 	this._side = null; /* side preference */
 	this._icon = null;
@@ -74,6 +75,7 @@ MM.Item.prototype.toJSON = function() {
 	if (this._color) { data.color = this._color; }
 	if (this._icon) { data.icon = this._icon; }
 	if (this._value) { data.value = this._value; }
+	if (this._url) { data.url = this._url; }
 	if (this._status) { data.status = this._status; }
 	if (this._layout) { data.layout = this._layout.id; }
 	if (!this._autoShape) { data.shape = this._shape.id; }
@@ -95,6 +97,7 @@ MM.Item.prototype.fromJSON = function(data) {
 	if (data.color) { this._color = data.color; }
 	if (data.icon) { this._icon = data.icon; }
 	if (data.value) { this._value = data.value; }
+	if (data.url) { this._url = data.url; }
 	if (data.status) {
 		this._status = data.status;
 		if (this._status == "maybe") { this._status = "computed"; }
@@ -132,6 +135,11 @@ MM.Item.prototype.mergeWith = function(data) {
 
 	if (this._value != data.value) { 
 		this._value = data.value;
+		dirty = 1;
+	}
+
+	if (this._url != data.url) { 
+		this._url = data.url;
 		dirty = 1;
 	}
 
@@ -261,6 +269,15 @@ MM.Item.prototype.expand = function() {
 
 MM.Item.prototype.isCollapsed = function() {
 	return this._collapsed;
+}
+
+MM.Item.prototype.setURL = function(url) {
+	this._url = url;
+	return this.update();
+}
+
+MM.Item.prototype.getURL = function() {
+	return this._url;
 }
 
 MM.Item.prototype.setValue = function(value) {

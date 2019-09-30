@@ -36,6 +36,7 @@ SOURCES =	src/mm.js \
 			src/ui.js \
 			src/ui.layout.js \
 			src/ui.shape.js \
+			src/ui.url.js \
 			src/ui.value.js \
 			src/ui.status.js \
 			src/ui.color.js \
