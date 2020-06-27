@@ -31,6 +31,18 @@
 								"url": "https://github.com/aster94/logic-analyzer"
 							}
 						]
+					},
+					{
+						"id": "zodbzrdq",
+						"text": "RaspberryPi",
+						"shape": "ellipse",
+						"children": [
+							{
+								"id": "gkmkymhb",
+								"text": "Buildroot&nbsp;<a href=\"http://fichugh.blogspot.com/2016/02/buildroot-study.html\">fichugh.blogspot.com/2016/02/buildroot-study.html</a>",
+								"url": "http://fichugh.blogspot.com/2016/02/buildroot-study.html"
+							}
+						]
 					}
 				]
 			}
