@@ -29,6 +29,10 @@
 								"id": "yllwnoyx",
 								"text": "TUI 邏輯分析儀&nbsp;<a href=\"github.com/aster94/logic-analyzer\">github.com/aster94/logic-analyzer</a>",
 								"url": "https://github.com/aster94/logic-analyzer"
+							},
+							{
+								"id": "elgfyqxp",
+								"text": "DSView 邏輯分析儀<a href=\"https://www.dreamsourcelab.com/download/\">https://www.dreamsourcelab.com/download/</a>"
 							}
 						]
 					},
@@ -41,6 +45,40 @@
 								"id": "gkmkymhb",
 								"text": "Buildroot&nbsp;<a href=\"http://fichugh.blogspot.com/2016/02/buildroot-study.html\">fichugh.blogspot.com/2016/02/buildroot-study.html</a>",
 								"url": "http://fichugh.blogspot.com/2016/02/buildroot-study.html"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "ocxzbkyy",
+				"text": "Network",
+				"side": "left",
+				"children": [
+					{
+						"id": "fjmdrnlo",
+						"text": "斷網工具",
+						"children": [
+							{
+								"id": "ltbznepd",
+								"text": "tuxcut"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "xtkyrhoy",
+				"text": "Android",
+				"side": "right",
+				"children": [
+					{
+						"id": "crfysufq",
+						"text": "模擬器",
+						"children": [
+							{
+								"id": "souinjpx",
+								"text": "genymotion"
 							}
 						]
 					}
