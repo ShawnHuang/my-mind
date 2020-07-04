@@ -75,6 +75,16 @@
 								"text": "tuxcut"
 							}
 						]
+					},
+					{
+						"id": "mostyjmx",
+						"text": "瀏覽器",
+						"children": [
+							{
+								"id": "ulxvjvoe",
+								"text": "elinks"
+							}
+						]
 					}
 				]
 			},
@@ -90,6 +100,33 @@
 							{
 								"id": "souinjpx",
 								"text": "genymotion"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "sznthguz",
+				"text": "DevTools",
+				"side": "left",
+				"children": [
+					{
+						"id": "soqnshvm",
+						"text": "node版本管理工具",
+						"children": [
+							{
+								"id": "dyhgznde",
+								"text": "nvm"
+							}
+						]
+					},
+					{
+						"id": "tzevmoub",
+						"text": "python版本管理工具",
+						"children": [
+							{
+								"id": "ycjqxcrz",
+								"text": "pyenv"
 							}
 						]
 					}
