@@ -47,6 +47,17 @@
 								"url": "http://fichugh.blogspot.com/2016/02/buildroot-study.html"
 							}
 						]
+					},
+					{
+						"id": "plfaqlkw",
+						"text": "OpenOCD",
+						"shape": "ellipse",
+						"children": [
+							{
+								"id": "kesbzefy",
+								"text": "Open On-Chip Debugger"
+							}
+						]
 					}
 				]
 			},
@@ -62,16 +73,6 @@
 							{
 								"id": "ltbznepd",
 								"text": "tuxcut"
-							}
-						]
-					},
-					{
-						"id": "dsnwiyvs",
-						"text": "瀏覽器",
-						"children": [
-							{
-								"id": "tdfdevba",
-								"text": "elinks"
 							}
 						]
 					}
