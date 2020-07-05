@@ -122,17 +122,6 @@
 						]
 					},
 					{
-						"id": "tzevmoub",
-						"text": "python版本管理工具",
-						"shape": "box",
-						"children": [
-							{
-								"id": "ycjqxcrz",
-								"text": "pyenv"
-							}
-						]
-					},
-					{
 						"id": "rusxiftb",
 						"text": "CI/CD",
 						"shape": "box",
@@ -144,6 +133,35 @@
 							{
 								"id": "jjrgqimn",
 								"text": "Jenkins"
+							}
+						]
+					},
+					{
+						"id": "mhknmkom",
+						"text": "python",
+						"shape": "box",
+						"children": [
+							{
+								"id": "tzevmoub",
+								"text": "python版本管理工具",
+								"shape": "box",
+								"children": [
+									{
+										"id": "ycjqxcrz",
+										"text": "pyenv"
+									}
+								]
+							},
+							{
+								"id": "scufmkyt",
+								"text": "效能測試",
+								"shape": "box",
+								"children": [
+									{
+										"id": "iezjvrxl",
+										"text": "nylas-perftools"
+									}
+								]
 							}
 						]
 					}
