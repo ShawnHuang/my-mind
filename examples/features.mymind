@@ -113,6 +113,7 @@
 					{
 						"id": "soqnshvm",
 						"text": "node版本管理工具",
+						"shape": "box",
 						"children": [
 							{
 								"id": "dyhgznde",
@@ -123,10 +124,26 @@
 					{
 						"id": "tzevmoub",
 						"text": "python版本管理工具",
+						"shape": "box",
 						"children": [
 							{
 								"id": "ycjqxcrz",
 								"text": "pyenv"
+							}
+						]
+					},
+					{
+						"id": "rusxiftb",
+						"text": "CI/CD",
+						"shape": "box",
+						"children": [
+							{
+								"id": "brlzhawk",
+								"text": "fastlane"
+							},
+							{
+								"id": "jjrgqimn",
+								"text": "Jenkins"
 							}
 						]
 					}
